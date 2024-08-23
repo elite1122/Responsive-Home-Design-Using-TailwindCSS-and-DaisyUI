@@ -37,6 +37,7 @@
 <body class="font-manrope">
     <!-- Header Section -->
     <header class="md:container mx-auto bg-gradient-to-r from-white to-transparent">
+        <!-- Nav section start -->
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -60,14 +61,15 @@
                 </div>
                 <div class="lg:flex items-center navbar-end gap-4">
                     <div
-                        class="btn btn-ghost items-center p-3 border border-gray-300 rounded-full bg-white hidden lg:flex">
+                        class="btn btn-ghost items-center p-3 border border-gray-300 rounded-full hidden lg:flex bg-white">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                         </svg>
                     </div>
-                    <div class="btn btn-ghost items-center p-3 border border-gray-300 rounded-full bg-white hidden lg:block">
+                    <div
+                        class="btn btn-ghost items-center p-3 border border-gray-300 rounded-full bg-white hidden lg:block">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="size-6">
                             <path stroke-linecap="round" stroke-linejoin="round"
@@ -76,7 +78,7 @@
 
                     </div>
                     <div class="btn bg-color-primary rounded-full hidden lg:flex">
-                        <a class="text-black font-bold">Book Consult</a>
+                        <a class="text-black font-extrabold text-lg">Book Consult</a>
                         <div class="bg-black p-2 rounded-full">
                             <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
                         </div>
@@ -103,6 +105,25 @@
                 </div>
             </div>
         </nav>
+        <!-- Hero Section start -->
+        <div class="hero">
+            <div class="hero-content flex-col w-full">
+                <img src="./assets/banner.png" class="max-w-full lg:max-w-screen-md rounded-lg w-full object-contain" />
+                <div>
+                    <h1 class="text-[28px] lg:text-6xl font-extrabold text-center">A barn house of this design has a striking appearance</h1>
+                    <p class="py-6 font-medium text-sm lg:text-base text-center">
+                        The barn house captivates with its blend of rustic charm and modern sophistication, featuring
+                        weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+                    </p>
+                    <div class="btn bg-lime-200 rounded-full flex lg:w-max mx-auto">
+                        <a class="text-black font-bold text-lg">View Details</a>
+                        <div class="bg-color-primary p-2 rounded-full">
+                            <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <!-- Main Section -->
     <main></main>
