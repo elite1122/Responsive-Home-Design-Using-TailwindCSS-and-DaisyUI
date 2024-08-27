@@ -40,7 +40,7 @@
 
 <body class="font-manrope">
     <!-- Header Section -->
-    <header class="w-full mx-auto bg-gradient-to-r from-white to-transparent">
+    <header class="w-full bg-gradient-to-r from-white to-transparent">
 
         <!-- Nav section start -->
         <nav class="flex content-between w-4/5 mx-auto">
@@ -112,9 +112,9 @@
         </nav>
 
         <!-- Hero Section start -->
-        <div class="hero">
+        <div class="hero w-4/5 mx-auto">
             <div class="hero-content flex-col w-full">
-                <img src="./assets/banner.png" class="max-w-full lg:max-w-screen-md rounded-lg w-full object-contain" />
+                <img src="./assets/banner.png" class="max-w-full lg:max-w-screen-md rounded-lg w-full object-cover" />
                 <div>
                     <h1 class="text-[28px] lg:text-6xl font-extrabold text-center w-full text-[#212121]">A barn house of
                         this design
@@ -123,7 +123,7 @@
                         The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                         weathered wood, sleek metal accents, and large windows that flood the space with natural light.
                     </p>
-                    <div class="btn bg-lime-200 rounded-full flex lg:w-max mx-auto lg:mb-24 mb-2">
+                    <div class="btn bg-lime-200 rounded-full flex w-full lg:w-max mx-auto lg:mb-24 mb-2">
                         <a class="text-[#212121] font-bold text-lg">View Details</a>
                         <div class="bg-color-primary p-2 rounded-full">
                             <i class="fa-solid fa-arrow-right -rotate-45 text-black"></i>
@@ -384,7 +384,39 @@
 
     </main>
     <!-- Footer Section -->
-    <footer></footer>
+    <footer class="bg-[#1C1C1C] mt-3 space-y-7">
+        <!-- Title -->
+        <div class="w-4/5 lg:w-1/2 mx-auto pt-[100px] space-y-4">
+            <div class="flex items-center btn btn-ghost w-max mx-auto">
+                <div class="bg-color-primary p-2 rounded-full">
+                    <i class="fa-solid fa-arrow-right -rotate-45"></i>
+                </div>
+                <a class="text-[32px] font-extrabold text-[#E9E9E9]">Rinterio</a>
+            </div>
+            <p class="text-base font-medium text-[#737373] text-center">The barn house captivates with its blend
+                of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!-- footer nav -->
+        <div class="w-4/5 lg:3/5 mx-auto flex">
+            <ul
+                class="text-base font-normal text-[#E9E9E9] flex flex-col lg:flex-row gap-5 lg:gap-20 mx-auto justify-center items-center">
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="pb-[100px]">
+            <div class="btn bg-[#ABEF5F] rounded-full flex w-4/5 lg:w-max mx-auto">
+                <a class="font-extrabold text-xl text-[#1C1C1C]">Book Consult</a>
+                <div class="bg-black p-2 rounded-full">
+                    <i class="fa-solid fa-arrow-right -rotate-45 text-white"></i>
+                </div>
+            </div>
+        </div>
+        <a></a>
+    </footer>
 </body>
 
 </html>
